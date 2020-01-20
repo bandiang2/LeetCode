@@ -15,8 +15,8 @@ Solution:<br>
 #         self.next = None
  -->
 
-class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+class Solution:<br>
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:<br>
         
         if not l1 or not l2:
             return l1 or l2
@@ -27,8 +27,8 @@ class Solution:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
         
-class Solution2:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+class Solution2:<br>
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:<br>
         
         head = tail = ListNode(0)
         while l1 and l2:
